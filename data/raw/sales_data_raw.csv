@@ -1,0 +1,5 @@
+date,store_id,product_id,sales,price,inventory,region
+2023-01-01,1,101,50,10.99,200,North
+2023-01-01,2,102,30,5.99,150,South
+2023-01-02,1,101,45,10.99,195,North
+2023-01-02,2,102,35,5.99,145,South
