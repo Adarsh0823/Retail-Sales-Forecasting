@@ -1,0 +1,16 @@
+
+---
+
+## **`requirements.txt`** (Python Dependencies)
+
+### Content:
+```plaintext
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+statsmodels
+fbprophet
+sqlalchemy
+snowflake-connector-python
