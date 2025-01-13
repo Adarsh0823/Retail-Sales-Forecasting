@@ -20,35 +20,7 @@ This project aims to develop a forecasting solution to predict sales and optimiz
 
 ---
 
-## Repository Structure  
-
-```plaintext
-Retail-Sales-Forecasting/
-├── data/
-│   ├── raw/                    # Raw data files
-│   ├── processed/              # Processed data files
-│   └── README.md               # Instructions for data usage
-├── notebooks/
-│   ├── EDA.ipynb               # Exploratory Data Analysis notebook
-│   ├── Forecasting_Model.ipynb # Model training and evaluation notebook
-│   └── README.md               # Explanation of each notebook
-├── src/
-│   ├── data_preprocessing.py   # Data cleaning and preparation scripts
-│   ├── model_training.py       # Model building and training scripts
-│   ├── forecasting.py          # Forecast generation scripts
-│   └── utils.py                # Helper functions
-├── dashboards/
-│   ├── Sales_Forecast.pbix     # Power BI file for dashboards
-│   └── screenshots/            # Screenshots of dashboards for preview
-├── requirements.txt            # Python dependencies
-├── Dockerfile                  # Docker configuration (optional)
-├── README.md                   # Project overview and instructions
-├── .gitignore                  # Ignored files and directories
-└── LICENSE                     # Licensing information
-
----
-
-**##Setup Instructions**
+**## Setup Instructions**
 
 **Prerequisites**
 
@@ -56,13 +28,13 @@ Python 3.8 or above
 Power BI Desktop (for dashboards)
 Access to Snowflake (for database integration)
 
-**##Steps**
+**## Steps**
 
-**##Clone the repository:**
+**## Clone the repository:**
 git clone https://github.com/username/Retail-Sales-Forecasting.git
 cd Retail-Sales-Forecasting
 
-**##Install dependencies:**
+**## Install dependencies:**
 pip install -r requirements.txt
 
 **##Prepare the data:**
@@ -80,7 +52,7 @@ python src/model_training.py
 
 python src/forecasting.py
 
-##Results
+## Results
 
 The machine learning pipeline forecasts sales with a Mean Absolute Error (MAE) of X and Root Mean Squared Error (RMSE) of Y.
 Inventory recommendations reduce stockouts by Z% and improve overall efficiency.
