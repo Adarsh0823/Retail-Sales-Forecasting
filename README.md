@@ -20,7 +20,7 @@ This project aims to develop a forecasting solution to predict sales and optimiz
 
 ---
 
-**## Setup Instructions**
+## Setup Instructions
 
 **Prerequisites**
 
@@ -28,27 +28,27 @@ Python 3.8 or above
 Power BI Desktop (for dashboards)
 Access to Snowflake (for database integration)
 
-**## Steps**
+## Steps
 
-**## Clone the repository:**
+## Clone the repository:
 git clone https://github.com/username/Retail-Sales-Forecasting.git
 cd Retail-Sales-Forecasting
 
-**## Install dependencies:**
+## Install dependencies:
 pip install -r requirements.txt
 
-**##Prepare the data:**
+## Prepare the data:
 Place your raw sales data in the data/raw/ folder. Update the file path in src/data_preprocessing.py if needed.
 
-**Run preprocessing script:**
+## Run preprocessing script:
 
 python src/data_preprocessing.py
 
-**Train the forecasting model:**
+## Train the forecasting model:
 
 python src/model_training.py
 
-**Generate forecasts:**
+## Generate forecasts:
 
 python src/forecasting.py
 
@@ -58,7 +58,7 @@ The machine learning pipeline forecasts sales with a Mean Absolute Error (MAE) o
 Inventory recommendations reduce stockouts by Z% and improve overall efficiency.
 Power BI dashboards provide easy-to-use visualizations for stakeholders.
 
-**Future Enhancements**
+## Future Enhancements
 
 Add support for region-specific forecasting.
 Integrate real-time inventory data.
