@@ -1,7 +1,4 @@
-## **`requirements.txt`** (Python Dependencies)
 
-### Content:
-```plaintext
 pandas
 numpy
 scikit-learn
