@@ -46,6 +46,8 @@ Retail-Sales-Forecasting/
 ├── .gitignore                  # Ignored files and directories
 └── LICENSE                     # Licensing information
 
+---
+
 **##Setup Instructions**
 
 **Prerequisites**
