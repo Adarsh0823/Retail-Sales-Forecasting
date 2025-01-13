@@ -1,0 +1,17 @@
+## Steps to Create Sales_Forecast.pbix:
+Connect to Processed Data:
+
+## Open Power BI Desktop.
+Click on "Home" > "Get Data" > "Text/CSV" and load the sales_data_cleaned.csv file from the data/processed/ folder.
+Create Visualizations:
+
+## Sales Over Time: Create a line chart to display sales trends over time. Use date as the x-axis and sales as the y-axis.
+## Region-Wise Sales: Use a bar chart to show total sales per region. Use region as the x-axis and total sales as the y-axis.
+## Top Products: Create a table to display top-selling products based on total sales and product_id.
+## Inventory vs. Sales: Use a scatter plot to analyze the relationship between inventory and sales.
+## Filters and Slicers:
+
+Add slicers for store_id, region, and date to allow dynamic filtering.
+## Save File:
+
+Save the dashboard as Sales_Forecast.pbix in the dashboards/ folder.
